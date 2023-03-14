@@ -1,6 +1,6 @@
 import { StringObject, UnpredictableObject } from "./types";
 
-function filterArrayByCheckObject(
+export function filterArrayByCheckObject(
   checkObject: StringObject,
   unpredictableObject: UnpredictableObject
 ): Array<StringObject> | null {
